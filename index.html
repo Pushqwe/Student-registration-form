@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
-    
+  
 </head>
 <body>
     <h1>Student Registration</h1>
     <p>Please fill out the form below to register as a student.</p>
     
     <form action="response.html" method="get">
-            <div>
+    
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name" required><br>
-            </div>
+             <br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required><br>
             <br>
             <label for="dob">Date of Birth:</label>
             <input type="date" id="dob" name="dob" required><br>
-            <br>
+             <br>
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone"><br>
-            <br>
+            <input type="number" id="phone" name="phone"><br>
+             <br> 
             <label>Gender:</label>
-            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
             <label><input type="radio" name="gender" value="female"> Female</label><br>
-            <br>
+             <br>
             <label>Courses Interested:</label>
+            <br>
             <label><input type="checkbox" name="courses" value="html"> HTML</label>
             <label><input type="checkbox" name="courses" value="css"> CSS</label>
             <label><input type="checkbox" name="courses" value="javascript"> JavaScript</label>
             <label><input type="checkbox" name="courses" value="python"> Python</label><br>
-             <br>
-             <br>
+        <br>
             <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments"></textarea><br>
             <br>
+            <textarea id="comments" name="comments"></textarea><br>
+        <br>
             <button type="submit">Register</button>
     </form>
 
     <h2>Registered Students</h2>
-    <table border="2">
+    <table border=2>
         <thead>
             <tr>
                 <th>Student ID</th>
@@ -57,32 +58,35 @@
         <tbody>
             <tr>
                 <td>001</td>
-                <td>raj</td>
-                <td>raj@gmail.com</td>
-                <td>1990-01-15</td>
+                <td>push</td>
+                <td>push@gmail.com</td>
+                <td>2001-12-24</td>
                 <td>123456789</td>
                 <td>Male</td>
                 <td>HTML, CSS</td>
             </tr>
             <tr>
                 <td>002</td>
-                <td>Smith</td>
-                <td>smith@gmail.com</td>
-                <td>1999-05-22</td>
+                <td>Sanjay</td>
+                <td>sanjay@gmail.com</td>
+                <td>1990-05-22</td>
                 <td>0987654321</td>
-                <td>Male</td>
+                <td>Female</td>
                 <td>JavaScript, Python</td>
             </tr>
             <tr>
                 <td>003</td>
                 <td>Johnson</td>
                 <td>johnson@gmail.com</td>
-                <td>2001-11-30</td>
-                <td>123456789</td>
-                <td>Male</td>
-                <td>HTML, Pyton</td>
+                <td>1990-11-30</td>
+                <td>1122334455</td>
+                <td>Other</td>
+                <td>HTML, Python</td>
             </tr>
         </tbody>
     </table>
 </body>
 </html>
+
+
+
